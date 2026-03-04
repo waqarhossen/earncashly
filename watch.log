@@ -1,0 +1,6 @@
+Starting auto-push watcher for EarnCashly...
+Log file: /root/earncasly/auto-push.log
+Press Ctrl+C to stop
+[Wed Mar  4 23:57:55 GMT 2026] Changes detected, pushing to GitHub...
+ M watch-and-push.sh
+?? watch.log
