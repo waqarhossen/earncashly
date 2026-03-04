@@ -25,3 +25,6 @@ Thumbs.db
 
 # Claude
 .claude/
+
+# Credentials (DO NOT COMMIT)
+.github-credentials

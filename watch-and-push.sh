@@ -20,8 +20,8 @@ while true; do
     # Check for file changes using git status
     cd "$PROJECT_DIR"
 
-    # Get list of changed files (excluding .git and log files)
-    CHANGES=$(git status --porcelain 2>/dev/null | grep -v "auto-push.log" | grep -v ".git")
+    # Get list of changed files (excluding .git, logs, and credentials)
+    CHANGES=$(git status --porcelain 2>/dev/null | grep -v "auto-push.log" | grep -v ".git" | grep -v ".github-credentials")
 
     if [ -n "$CHANGES" ]; then
         current_time=$(date +%s)
